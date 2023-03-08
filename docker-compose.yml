@@ -1,0 +1,10 @@
+version: "3"
+services:
+    react:
+      image: reactjs:v1
+      command: npm start
+      stdin_open: true
+      tty: true
+      ports:
+        - "80:3000"
+      
